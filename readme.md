@@ -16,7 +16,7 @@
     ```bash
     pip install -r requirements.txt 
     ```  
-## IRun Flask
+## Run Flask
     ```bash
     python ./flask_api/app.py
     ``` 
