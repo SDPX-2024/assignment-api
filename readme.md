@@ -1,26 +1,34 @@
 ## Installation
 **Set virtual environment:**
+```bash
+python3 -m venv .venv
+```
 
-
-    python3 -m venv .venv
-
-
-**activate virtual environment:**
+**Activate virtual environment:**
 - macOS/Linux
-    ```bash
-    source .venv/bin/activate 
-    ```  
+```bash
+source .venv/bin/activate 
+```  
 
 - Windows:
-    ```bash
-    .venv\Scripts\activate 
-    ```  
+```bash
+.venv\Scripts\activate 
+```  
 
 **install dependencies:**
-
-    pip install -r requirements.txt 
+```bash
+pip install -r requirements.txt 
+```
 
 ## Run Flask
-    python ./flask_api/app.py
-    
+```bash
+python ./flask_api/app.py
+```
 
+## Endpoints
+- GET /
+- GET /user
+- GET /user/{id}
+- POST /user/new
+- PUT /user/{id}
+- DELETE /user/{id}
