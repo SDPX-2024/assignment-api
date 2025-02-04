@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Run Flask
 ```bash
-python ./flask_api/app.py
+python ./app/app.py
 ```
 
 ## Endpoints
