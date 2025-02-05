@@ -38,7 +38,8 @@ def get_all():
             "status": "Success",
             "result": newdata
         }
-    except:
+    except Exception as e:
+        print(e)
         status_code = 500
         result = {
             "status": "Internal error",
